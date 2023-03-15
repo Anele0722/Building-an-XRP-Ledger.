@@ -31,6 +31,7 @@ client = JsonRpcClient("https://s1.ripple.com:51234/")
 You can also connect to a local XRP Ledger node by specifying the URL of the node:
 
 
+
 ```python 
 from xrpl.clients import JsonRpcClient
 
@@ -69,7 +70,8 @@ response = client.submit_transaction(tx_signed)
 To check the XRP balance of an address, you can use the xrpl.account module in XRP-py. Here's an example of checking the XRP balance of an address:
 
 
-```from xrpl.clients import JsonRpcClient
+```python 
+from xrpl.clients import JsonRpcClient
 from xrpl.account import get_balance
 
 client = JsonRpcClient("https://s1.ripple.com:51234/")
@@ -78,10 +80,11 @@ balance = get_balance(client, address)
 print(balance)
 ```
 
+
 ## Contributing
 
 Contributions to this project are welcome. If you find a bug or have a feature request, please open an issue or submit a pull request.
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [**LICENSE**](https://mit-license.org/) file for details.
