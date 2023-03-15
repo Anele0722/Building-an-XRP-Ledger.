@@ -13,8 +13,10 @@ To get started with this project, you will need to have the following:
 
 + Install XRP-py library
 
-`pip install xrpl-py
-`
+
+```pip install xrpl-py
+```
+
 
 ## Connecting to an XRP Ledger node
 
