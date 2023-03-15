@@ -21,9 +21,9 @@ To get started with this project, you will need to have the following:
 To connect to an XRP Ledger node, you can use the xrpl.core.client module in XRP-py. Here's an example of connecting to a public XRP Ledger node:
 
 
-`from xrpl.clients import JsonRpcClient
+```from xrpl.clients import JsonRpcClient
 
-client = JsonRpcClient("https://s1.ripple.com:51234/")`
+client = JsonRpcClient("https://s1.ripple.com:51234/")```
 
 You can also connect to a local XRP Ledger node by specifying the URL of the node:
 
