@@ -1,14 +1,14 @@
 # Basics of Building an XRP Ledger Connected Application with XRP-py
 This project is a guide to building an XRP Ledger connected application using XRP-py, a pure Python library built to interact with the XRP Ledger using native Python models and methods.
 
-##Getting Started
+## Getting Started
 To get started with this project, you will need to have the following:
 
 + Python 3.6 or higher
 + XRP-py library
 + Access to an XRP Ledger node
 
-##Installation
+## Installation
 + Install Python 3.6 or higher
 
 + Install XRP-py library
